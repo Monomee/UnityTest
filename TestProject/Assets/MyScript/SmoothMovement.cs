@@ -26,7 +26,6 @@ public class SmoothMovement : MonoBehaviour
         //Move object
         transform.Translate(Vector3.forward * Time.deltaTime * verticalInput * speed);
         transform.Rotate(Vector3.up * horizontalInput * turnSpeed * Time.deltaTime * speed);
-
  
     }
 }
